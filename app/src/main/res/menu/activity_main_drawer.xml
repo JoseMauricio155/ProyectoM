@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_nuevo"
+            android:icon="@drawable/nuevo"
+            android:title="@string/menu_nuevo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/madera"
+            android:title="@string/menu_cotizar" />
+        <item
+            android:id="@+id/nav_triplay"
+            android:icon="@drawable/triplay"
+            android:title="@string/menu_triplay" />
+        <item
+            android:id="@+id/nav_terminado"
+            android:icon="@drawable/terminado"
+            android:title="@string/menu_terminado" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/comprar"
+            android:title="@string/menu_comprar" />
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/reportes"
+            android:title="@string/menu_reportes" />
+        <item
+            android:id="@+id/nav_material"
+            android:icon="@drawable/material"
+            android:title="@string/menu_registrar" />
+
+    </group>
+</menu>

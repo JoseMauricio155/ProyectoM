@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectom.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.proyectom.ui.gallery.GalleryFragment"
+        android:label="@string/menu_cotizar"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.proyectom.Comprarmadera"
+        android:label="@string/menu_comprar"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_reportes"
+        android:name="com.example.proyectom.reportess"
+        android:label="@string/menu_comprar"
+        tools:layout="@layout/fragment_reportess" />
+
+
+    <fragment
+        android:id="@+id/nav_triplay"
+        android:name="com.example.proyectom.Triplay"
+        android:label="@string/menu_triplay"
+        tools:layout="@layout/fragment_triplay" />
+    <fragment
+        android:id="@+id/nav_material"
+        android:name="com.example.proyectom.Registrar_Material"
+        android:label="@string/menu_registrar"
+        tools:layout="@layout/fragment_registrar__material" />
+    <fragment
+        android:id="@+id/nav_nuevo"
+        android:name="com.example.proyectom.Nuevo_Mueble"
+        android:label="@string/menu_nuevo"
+        tools:layout="@layout/nuevo__mueble_fragment" />
+    <fragment
+        android:id="@+id/nav_terminado"
+        android:name="com.example.proyectom.terminado"
+        android:label="@string/menu_terminado"
+        tools:layout="@layout/fragment_terminado" />
+</navigation>

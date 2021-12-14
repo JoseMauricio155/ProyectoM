@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ProyectoM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayuda</string>
+
+    <string name="menu_home">Muebles</string>
+    <string name="menu_nuevo">Nuevo mueble..</string>
+    <string name="menu_cotizar">Asignar Madera</string>
+    <string name="menu_comprar">Comprar Madera</string>
+    <string name="menu_reportes">Reportes(Madera comprada)</string>
+    <string name="menu_registrar">Registrar Material</string>
+    <string name="menu_triplay">Asignar Triplay</string>
+    <string name="menu_terminado">Terminado</string>
+    <string-array name="piezas">
+        <item>Descripcion</item>
+        <item>PATA</item>
+        <item>ARMADOR</item>
+        <item>PILASTRA</item>
+        <item>MANGUETE</item>
+        <item>CACHETE</item>
+        <item>BASTON</item>
+        <item>ENTREPAÑO</item>
+        <item>PUERTA</item>
+        <item>PEINASO</item>
+        <item>F_CAJON</item>
+        <item>PI_CAJON</item>
+        <item>PI_PUERTA</item>
+        <item>COSTADO</item>
+        <item>TESTERO</item>
+        <item>BATIENTE</item>
+        <item>CARGADOR</item>
+        <item>PUENTE</item>
+        <item>MOLDURA</item>
+    </string-array>
+    <string-array name="unidades">
+        <item>Unidad...</item>
+        <item>Litro</item>
+        <item>Pieza</item>
+        <item>Pie</item>
+        <item>Juego</item>
+    </string-array>
+    <string-array name="PulgadasComp">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="PiesComp">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
